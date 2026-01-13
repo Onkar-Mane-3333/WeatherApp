@@ -1,16 +1,34 @@
-# React + Vite
+WeatherApp:
+This is a Weather Application that I built using React and Vite as a frontend mini-project.  
+The main goal of this project was to practice React concepts and understand how to deploy a React app as a live website.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Website
+https://onkar-mane-3333.github.io/WeatherApp/
 
-Currently, two official plugins are available:
+About the Project
+I created this project to improve my understanding of:
+- React component structure
+- Using modern build tools like Vite
+- Hosting a frontend project using GitHub Pages
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The application provides weather-related information for a given location with a clean and responsive user interface.
+but the weather may differ from the real weather. 
+⚠️ Important Note About Weather Data
+The temperature and weather details shown in this application may **slightly differ from real-time or local measurements**.  
+This is because the data is fetched from an external weather API and depends on:
+- API data update intervals
+- City-level weather approximation
+- Network latency
+- 
+🛠️ Tech Stack
+- React
+- JavaScript
+- Material UI (MUI)
+- HTML & CSS
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Run Locally
+```bash
+git clone https://github.com/Onkar-Mane-3333/WeatherApp.git
+cd WeatherApp
+npm install
+npm run dev
